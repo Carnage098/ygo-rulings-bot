@@ -1,0 +1,20 @@
+[
+  {
+    "key": "damage step",
+    "title": "Damage Step",
+    "content": "La Damage Step est très restrictive. En général, seuls certains effets (modifs ATK/DEF, contres, cartes/effets qui se déclenchent spécifiquement en Damage Step) peuvent s'activer. Donne la carte + le moment exact pour un cas précis.",
+    "tags": ["combat", "damage step", "rulings"]
+  },
+  {
+    "key": "miss timing",
+    "title": "Miss Timing",
+    "content": "Le 'miss timing' concerne souvent les effets 'When... you can'. Si l'événement n'est pas la dernière chose qui s'est produite, l'effet peut ne pas pouvoir s'activer.",
+    "tags": ["timing", "chain", "rulings"]
+  },
+  {
+    "key": "ash blossom",
+    "title": "Ash Blossom & Joyous Spring",
+    "content": "Ash Blossom peut annuler un effet qui: (1) ajoute du Deck à la main, (2) envoie du Deck au GY, ou (3) Invoque Spécialement depuis le Deck.",
+    "tags": ["hand trap", "negate", "deck"]
+  }
+]
