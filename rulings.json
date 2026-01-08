@@ -1,20 +1,83 @@
 [
-  {
-    "key": "damage step",
-    "title": "Damage Step",
-    "content": "La Damage Step est très restrictive. En général, seuls certains effets (modifs ATK/DEF, contres, cartes/effets qui se déclenchent spécifiquement en Damage Step) peuvent s'activer. Donne la carte + le moment exact pour un cas précis.",
-    "tags": ["combat", "damage step", "rulings"]
-  },
-  {
-    "key": "miss timing",
-    "title": "Miss Timing",
-    "content": "Le 'miss timing' concerne souvent les effets 'When... you can'. Si l'événement n'est pas la dernière chose qui s'est produite, l'effet peut ne pas pouvoir s'activer.",
-    "tags": ["timing", "chain", "rulings"]
-  },
-  {
-    "key": "ash blossom",
-    "title": "Ash Blossom & Joyous Spring",
-    "content": "Ash Blossom peut annuler un effet qui: (1) ajoute du Deck à la main, (2) envoie du Deck au GY, ou (3) Invoque Spécialement depuis le Deck.",
-    "tags": ["hand trap", "negate", "deck"]
-  }
+  { "key": "damage step", "title": "Damage Step", "content": "Pendant la Damage Step, seules certaines cartes et effets peuvent être activés, comme les modifications d’ATK/DEF, les effets spécifiques à cette phase et certains contres.", "tags": ["combat", "rules"] },
+  { "key": "miss timing", "title": "Miss Timing", "content": "Les effets formulés avec 'When... you can' peuvent rater le timing si l’événement déclencheur n’est pas la dernière chose qui s’est produite.", "tags": ["timing", "chain"] },
+  { "key": "chain resolution", "title": "Chain Resolution", "content": "Les chaînes se résolvent en ordre inverse. Un effet déjà activé se résout même si la carte est détruite.", "tags": ["chain"] },
+  { "key": "cost vs effect", "title": "Cost vs Effect", "content": "Les coûts sont payés avant toute réponse. Ils ne peuvent pas être annulés.", "tags": ["cost", "effect"] },
+  { "key": "targeting", "title": "Targeting", "content": "Un effet qui cible doit désigner sa cible à l’activation. Un effet sans le mot 'target' ne cible pas.", "tags": ["target"] },
+
+  { "key": "normal summon", "title": "Normal Summon", "content": "Une Invocation Normale utilise l’invocation normale du tour et ne démarre pas de chaîne.", "tags": ["summon"] },
+  { "key": "special summon", "title": "Special Summon", "content": "Certaines Invocations Spéciales ne démarrent pas de chaîne et ne peuvent pas être annulées une fois réussies.", "tags": ["summon"] },
+  { "key": "tribute summon", "title": "Tribute Summon", "content": "Une Invocation Sacrifice est une Invocation Normale nécessitant l’envoi de monstres au Cimetière.", "tags": ["summon"] },
+  { "key": "extra deck summon", "title": "Extra Deck Summon", "content": "Les monstres de l’Extra Deck doivent être invoqués correctement avant d’être réinvoqués depuis le GY.", "tags": ["extra deck"] },
+
+  { "key": "ash blossom", "title": "Ash Blossom & Joyous Spring", "content": "Peut être activée lorsqu’un effet ajoute du Deck à la main, envoie du Deck au GY ou invoque depuis le Deck.", "tags": ["hand trap", "negate"] },
+  { "key": "effect veiler", "title": "Effect Veiler", "content": "Annule les effets d’un monstre face recto jusqu’à la fin du tour.", "tags": ["hand trap", "negate"] },
+  { "key": "infinite impermanence", "title": "Infinite Impermanence", "content": "Peut être activée depuis la main si aucun contrôle de carte. Annule les effets d’un monstre ciblé.", "tags": ["trap", "negate"] },
+  { "key": "nibiru", "title": "Nibiru, the Primal Being", "content": "Activable après la 5e Invocation du tour. Sacrifie tous les monstres.", "tags": ["hand trap"] },
+  { "key": "ghost ogre", "title": "Ghost Ogre & Snow Rabbit", "content": "Détruit une carte sur le Terrain lorsque son effet est activé, sans annuler l’effet.", "tags": ["hand trap"] },
+
+  { "key": "quick-play spell", "title": "Quick-Play Spell", "content": "Peut être activée depuis la main durant son tour ou posée pour le tour adverse.", "tags": ["spell"] },
+  { "key": "field spell", "title": "Field Spell", "content": "Une seule Magie de Terrain peut être active par joueur.", "tags": ["spell"] },
+  { "key": "continuous spell", "title": "Continuous Spell", "content": "Reste sur le Terrain et applique ses effets continus.", "tags": ["spell"] },
+
+  { "key": "normal trap", "title": "Normal Trap", "content": "Doit être posée avant activation.", "tags": ["trap"] },
+  { "key": "counter trap", "title": "Counter Trap", "content": "Vitesse de sort 3, ne peut être répondue que par une autre Counter Trap.", "tags": ["trap", "counter"] },
+
+  { "key": "graveyard effects", "title": "Graveyard Effects", "content": "Un effet activé au Cimetière fonctionne même si la carte y est envoyée comme coût.", "tags": ["graveyard"] },
+  { "key": "banish", "title": "Banish", "content": "Les cartes bannies sont retirées du jeu, face recto ou verso.", "tags": ["banish"] },
+  { "key": "banish facedown", "title": "Face-down Banish", "content": "Une carte bannie face verso est traitée comme information inconnue.", "tags": ["banish"] },
+
+  { "key": "last known information", "title": "Last Known Information", "content": "Le jeu utilise les dernières informations connues d’une carte si elle quitte le Terrain.", "tags": ["rules"] },
+
+  { "key": "once per turn", "title": "Once per Turn", "content": "Un effet OPT peut être réutilisé si la carte quitte le Terrain et revient.", "tags": ["effect"] },
+  { "key": "hard once per turn", "title": "Hard Once per Turn", "content": "Un effet limité par son nom ne peut être utilisé qu’une fois par tour.", "tags": ["effect"] },
+
+  { "key": "negate activation", "title": "Negate Activation", "content": "Annule l’activation entière d’une carte ou d’un effet.", "tags": ["negate"] },
+  { "key": "negate effect", "title": "Negate Effect", "content": "Annule les effets sans annuler l’activation.", "tags": ["negate"] },
+
+  { "key": "cannot respond", "title": "Cannot Respond", "content": "Certains effets empêchent toute réponse lors de leur activation.", "tags": ["chain"] },
+
+  { "key": "spell speed", "title": "Spell Speed", "content": "Les cartes ont des vitesses de sort déterminant quelles réponses sont possibles.", "tags": ["rules"] },
+
+  { "key": "continuous effect", "title": "Continuous Effect", "content": "S’applique tant que la carte reste active sur le Terrain.", "tags": ["effect"] },
+
+  { "key": "trigger effect", "title": "Trigger Effect", "content": "S’active lorsqu’un événement précis se produit.", "tags": ["effect"] },
+
+  { "key": "optional effect", "title": "Optional Effect", "content": "Peut être activé ou non au choix du joueur.", "tags": ["effect"] },
+
+  { "key": "mandatory effect", "title": "Mandatory Effect", "content": "Doit être activé lorsqu’il est déclenché.", "tags": ["effect"] },
+
+  { "key": "simultaneous effects", "title": "Simultaneous Effects", "content": "Lorsque plusieurs effets se déclenchent en même temps, le joueur actif choisit l’ordre.", "tags": ["chain"] },
+
+  { "key": "destroy vs send", "title": "Destroy vs Send", "content": "Détruire une carte est différent de l’envoyer au Cimetière.", "tags": ["rules"] },
+
+  { "key": "cannot be destroyed", "title": "Cannot Be Destroyed", "content": "Une carte protégée contre la destruction n’est pas affectée par des effets de destruction.", "tags": ["protection"] },
+
+  { "key": "cannot be targeted", "title": "Cannot Be Targeted", "content": "Une carte non ciblable ne peut pas être choisie comme cible.", "tags": ["protection"] },
+
+  { "key": "cannot be negated", "title": "Cannot Be Negated", "content": "Certains effets ne peuvent pas être annulés.", "tags": ["protection"] },
+
+  { "key": "battle damage", "title": "Battle Damage", "content": "Les dommages de combat sont infligés après le calcul de combat.", "tags": ["combat"] },
+
+  { "key": "piercing damage", "title": "Piercing Damage", "content": "Permet d’infliger des dommages même si le monstre attaqué est en défense.", "tags": ["combat"] },
+
+  { "key": "direct attack", "title": "Direct Attack", "content": "Une attaque directe est possible si l’adversaire ne contrôle aucun monstre.", "tags": ["combat"] },
+
+  { "key": "fusion summon", "title": "Fusion Summon", "content": "Nécessite une carte Magie ou un effet spécifique.", "tags": ["fusion"] },
+
+  { "key": "synchro summon", "title": "Synchro Summon", "content": "Utilise un monstre Syntoniseur et des non-syntoniseurs.", "tags": ["synchro"] },
+
+  { "key": "xyz summon", "title": "Xyz Summon", "content": "Utilise des monstres de même Niveau empilés comme Matériels.", "tags": ["xyz"] },
+
+  { "key": "link summon", "title": "Link Summon", "content": "N’utilise pas de Niveaux mais des flèches de lien.", "tags": ["link"] },
+
+  { "key": "extra monster zone", "title": "Extra Monster Zone", "content": "Zone utilisée pour les monstres de l’Extra Deck.", "tags": ["zone"] },
+
+  { "key": "main phase", "title": "Main Phase", "content": "Phase durant laquelle la majorité des actions sont effectuées.", "tags": ["phase"] },
+
+  { "key": "end phase", "title": "End Phase", "content": "Certains effets se déclenchent spécifiquement durant l’End Phase.", "tags": ["phase"] },
+
+  { "key": "standby phase", "title": "Standby Phase", "content": "Phase après la Draw Phase où certains effets s’activent.", "tags": ["phase"] },
+
+  { "key": "draw phase", "title": "Draw Phase", "content": "Le joueur actif pioche une carte.", "tags": ["phase"] }
 ]
