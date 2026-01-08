@@ -1,0 +1,1 @@
+# ygo-rulings-bot
